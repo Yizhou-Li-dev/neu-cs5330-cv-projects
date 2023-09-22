@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB350CFA299C503400B0ABE1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB350CF9299C503400B0ABE1 /* main.cpp */; };
+		CB350D04299C539900B0ABE1 /* vidDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB350D02299C539900B0ABE1 /* vidDisplay.cpp */; };
+		CB350D0B299C747700B0ABE1 /* obj_rec_methods.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB350D09299C747700B0ABE1 /* obj_rec_methods.cpp */; };
+		CB350D1229A03DD200B0ABE1 /* csv_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB350D1029A03DD200B0ABE1 /* csv_util.cpp */; };
+		CB65AFE429AEB4FB00FF28D5 /* general_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB65AFE229AEB4FB00FF28D5 /* general_utils.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB350CF4299C503400B0ABE1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB350CF6299C503400B0ABE1 /* porject3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = porject3; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB350CF9299C503400B0ABE1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CB350D00299C505A00B0ABE1 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		CB350D02299C539900B0ABE1 /* vidDisplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vidDisplay.cpp; sourceTree = "<group>"; };
+		CB350D03299C539900B0ABE1 /* vidDisplay.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vidDisplay.hpp; sourceTree = "<group>"; };
+		CB350D09299C747700B0ABE1 /* obj_rec_methods.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = obj_rec_methods.cpp; sourceTree = "<group>"; };
+		CB350D0A299C747700B0ABE1 /* obj_rec_methods.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = obj_rec_methods.hpp; sourceTree = "<group>"; };
+		CB350D1029A03DD200B0ABE1 /* csv_util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = csv_util.cpp; sourceTree = "<group>"; };
+		CB350D1129A03DD200B0ABE1 /* csv_util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = csv_util.hpp; sourceTree = "<group>"; };
+		CB65AFE229AEB4FB00FF28D5 /* general_utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = general_utils.cpp; sourceTree = "<group>"; };
+		CB65AFE329AEB4FB00FF28D5 /* general_utils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = general_utils.hpp; sourceTree = "<group>"; };
+		CB707B7B29B11DA900F26D71 /* porject3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = porject3.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB350CF3299C503400B0ABE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB350CED299C503400B0ABE1 = {
+			isa = PBXGroup;
+			children = (
+				CB350CF8299C503400B0ABE1 /* project3 */,
+				CB350CF7299C503400B0ABE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB350CF7299C503400B0ABE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB350CF6299C503400B0ABE1 /* porject3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB350CF8299C503400B0ABE1 /* project3 */ = {
+			isa = PBXGroup;
+			children = (
+				CB707B7B29B11DA900F26D71 /* porject3.entitlements */,
+				CB350D00299C505A00B0ABE1 /* Config.xcconfig */,
+				CBCE718F29A6ADC6002E8AB3 /* include */,
+				CB350D0C29A03CF500B0ABE1 /* utils */,
+				CB350CF9299C503400B0ABE1 /* main.cpp */,
+				CB350D02299C539900B0ABE1 /* vidDisplay.cpp */,
+				CB350D09299C747700B0ABE1 /* obj_rec_methods.cpp */,
+			);
+			path = project3;
+			sourceTree = "<group>";
+		};
+		CB350D0C29A03CF500B0ABE1 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				CB350D1029A03DD200B0ABE1 /* csv_util.cpp */,
+				CB65AFE229AEB4FB00FF28D5 /* general_utils.cpp */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		CBCE718F29A6ADC6002E8AB3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CB350D03299C539900B0ABE1 /* vidDisplay.hpp */,
+				CB350D0A299C747700B0ABE1 /* obj_rec_methods.hpp */,
+				CB350D1129A03DD200B0ABE1 /* csv_util.hpp */,
+				CB65AFE329AEB4FB00FF28D5 /* general_utils.hpp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB350CF5299C503400B0ABE1 /* porject3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB350CFD299C503400B0ABE1 /* Build configuration list for PBXNativeTarget "porject3" */;
+			buildPhases = (
+				CB350CF2299C503400B0ABE1 /* Sources */,
+				CB350CF3299C503400B0ABE1 /* Frameworks */,
+				CB350CF4299C503400B0ABE1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = porject3;
+			productName = porject3;
+			productReference = CB350CF6299C503400B0ABE1 /* porject3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB350CEE299C503400B0ABE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CB350CF5299C503400B0ABE1 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = CB350CF1299C503400B0ABE1 /* Build configuration list for PBXProject "porject3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB350CED299C503400B0ABE1;
+			productRefGroup = CB350CF7299C503400B0ABE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB350CF5299C503400B0ABE1 /* porject3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB350CF2299C503400B0ABE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB350D04299C539900B0ABE1 /* vidDisplay.cpp in Sources */,
+				CB65AFE429AEB4FB00FF28D5 /* general_utils.cpp in Sources */,
+				CB350D1229A03DD200B0ABE1 /* csv_util.cpp in Sources */,
+				CB350CFA299C503400B0ABE1 /* main.cpp in Sources */,
+				CB350D0B299C747700B0ABE1 /* obj_rec_methods.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB350CFB299C503400B0ABE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB350D00299C505A00B0ABE1 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"\"-I/opt/homebrew/opt/opencv/include/opencv4\"",
+					"\"-L/opt/homebrew/opt/opencv/lib\"",
+					"\"-lopencv_gapi\"",
+					"\"-lopencv_stitching\"",
+					"\"-lopencv_alphamat\"",
+					"\"-lopencv_aruco\"",
+					"\"-lopencv_barcode\"",
+					"\"-lopencv_bgsegm\"",
+					"\"-lopencv_bioinspired\"",
+					"\"-lopencv_ccalib\"",
+					"\"-lopencv_dnn_objdetect\"",
+					"\"-lopencv_dnn_superres\"",
+					"\"-lopencv_dpm\"",
+					"\"-lopencv_face\"",
+					"\"-lopencv_freetype\"",
+					"\"-lopencv_fuzzy\"",
+					"\"-lopencv_hfs\"",
+					"\"-lopencv_img_hash\"",
+					"\"-lopencv_intensity_transform\"",
+					"\"-lopencv_line_descriptor\"",
+					"\"-lopencv_mcc\"",
+					"\"-lopencv_quality\"",
+					"\"-lopencv_rapid\"",
+					"\"-lopencv_reg\"",
+					"\"-lopencv_rgbd\"",
+					"\"-lopencv_saliency\"",
+					"\"-lopencv_sfm\"",
+					"\"-lopencv_stereo\"",
+					"\"-lopencv_structured_light\"",
+					"\"-lopencv_phase_unwrapping\"",
+					"\"-lopencv_superres\"",
+					"\"-lopencv_optflow\"",
+					"\"-lopencv_surface_matching\"",
+					"\"-lopencv_tracking\"",
+					"\"-lopencv_highgui\"",
+					"\"-lopencv_datasets\"",
+					"\"-lopencv_text\"",
+					"\"-lopencv_plot\"",
+					"\"-lopencv_videostab\"",
+					"\"-lopencv_videoio\"",
+					"\"-lopencv_viz\"",
+					"\"-lopencv_wechat_qrcode\"",
+					"\"-lopencv_xfeatures2d\"",
+					"\"-lopencv_shape\"",
+					"\"-lopencv_ml\"",
+					"\"-lopencv_ximgproc\"",
+					"\"-lopencv_video\"",
+					"\"-lopencv_xobjdetect\"",
+					"\"-lopencv_objdetect\"",
+					"\"-lopencv_calib3d\"",
+					"\"-lopencv_imgcodecs\"",
+					"\"-lopencv_features2d\"",
+					"\"-lopencv_dnn\"",
+					"\"-lopencv_flann\"",
+					"\"-lopencv_xphoto\"",
+					"\"-lopencv_photo\"",
+					"\"-lopencv_imgproc\"",
+					"\"-lopencv_core\"",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB350CFC299C503400B0ABE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB350D00299C505A00B0ABE1 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"\"-I/opt/homebrew/opt/opencv/include/opencv4\"",
+					"\"-L/opt/homebrew/opt/opencv/lib\"",
+					"\"-lopencv_gapi\"",
+					"\"-lopencv_stitching\"",
+					"\"-lopencv_alphamat\"",
+					"\"-lopencv_aruco\"",
+					"\"-lopencv_barcode\"",
+					"\"-lopencv_bgsegm\"",
+					"\"-lopencv_bioinspired\"",
+					"\"-lopencv_ccalib\"",
+					"\"-lopencv_dnn_objdetect\"",
+					"\"-lopencv_dnn_superres\"",
+					"\"-lopencv_dpm\"",
+					"\"-lopencv_face\"",
+					"\"-lopencv_freetype\"",
+					"\"-lopencv_fuzzy\"",
+					"\"-lopencv_hfs\"",
+					"\"-lopencv_img_hash\"",
+					"\"-lopencv_intensity_transform\"",
+					"\"-lopencv_line_descriptor\"",
+					"\"-lopencv_mcc\"",
+					"\"-lopencv_quality\"",
+					"\"-lopencv_rapid\"",
+					"\"-lopencv_reg\"",
+					"\"-lopencv_rgbd\"",
+					"\"-lopencv_saliency\"",
+					"\"-lopencv_sfm\"",
+					"\"-lopencv_stereo\"",
+					"\"-lopencv_structured_light\"",
+					"\"-lopencv_phase_unwrapping\"",
+					"\"-lopencv_superres\"",
+					"\"-lopencv_optflow\"",
+					"\"-lopencv_surface_matching\"",
+					"\"-lopencv_tracking\"",
+					"\"-lopencv_highgui\"",
+					"\"-lopencv_datasets\"",
+					"\"-lopencv_text\"",
+					"\"-lopencv_plot\"",
+					"\"-lopencv_videostab\"",
+					"\"-lopencv_videoio\"",
+					"\"-lopencv_viz\"",
+					"\"-lopencv_wechat_qrcode\"",
+					"\"-lopencv_xfeatures2d\"",
+					"\"-lopencv_shape\"",
+					"\"-lopencv_ml\"",
+					"\"-lopencv_ximgproc\"",
+					"\"-lopencv_video\"",
+					"\"-lopencv_xobjdetect\"",
+					"\"-lopencv_objdetect\"",
+					"\"-lopencv_calib3d\"",
+					"\"-lopencv_imgcodecs\"",
+					"\"-lopencv_features2d\"",
+					"\"-lopencv_dnn\"",
+					"\"-lopencv_flann\"",
+					"\"-lopencv_xphoto\"",
+					"\"-lopencv_photo\"",
+					"\"-lopencv_imgproc\"",
+					"\"-lopencv_core\"",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB350CFE299C503400B0ABE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ./project3/porject3.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F5U46GHZC6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CB350CFF299C503400B0ABE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ./project3/porject3.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F5U46GHZC6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB350CF1299C503400B0ABE1 /* Build configuration list for PBXProject "porject3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB350CFB299C503400B0ABE1 /* Debug */,
+				CB350CFC299C503400B0ABE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB350CFD299C503400B0ABE1 /* Build configuration list for PBXNativeTarget "porject3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB350CFE299C503400B0ABE1 /* Debug */,
+				CB350CFF299C503400B0ABE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB350CEE299C503400B0ABE1 /* Project object */;
+}

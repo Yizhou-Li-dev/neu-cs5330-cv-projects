@@ -1,0 +1,7 @@
+true_label/predicted_label,cissor,card,coin,pen,wallet,case
+cissor,1,0,0,0,0,0
+card,0,1,0,0,0,0
+coin,0,0,1,0,0,0
+pen,0,0,0,1,0,0
+wallet,0,0,0,0,1,0
+case,0,0,0,0,0,1

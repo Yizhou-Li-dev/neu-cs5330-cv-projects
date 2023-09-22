@@ -1,0 +1,12 @@
+
+project4/.DS_Store
+*.entitlements
+*.png
+*.xcworkspacedata
+*.plist
+*.xcuserstate
+*.xcbkptlist
+project4/project4.xcodeproj/project.pbxproj
+.DS_Store
+project4/Config.xcconfig
+project4/Config.xcconfig
